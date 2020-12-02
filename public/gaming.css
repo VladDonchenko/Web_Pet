@@ -1,0 +1,25 @@
+.buttons{
+  color: #EBEFF5
+  justify-content: left;
+  font-size: 20px;
+  }
+  
+.img{
+  text-align: right;
+  position: relative;
+  bottom: 0pt;
+}
+
+.h3_complete{
+  text-align: right;
+  font-size: 20px;
+  position: relative;
+  bottom: 0pt;
+}
+
+.body_index{
+text-align: right;
+font-size: 50px;
+position: relative;
+bottom: 300pt;
+}

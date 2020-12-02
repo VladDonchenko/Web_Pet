@@ -1,0 +1,38 @@
+.row{
+  justify-content: center;
+  font-size: 15px;
+}
+
+.img{
+  text-align: center;
+}
+
+.h3_complete{
+  text-align: center;
+  font-size: 15px;
+}
+
+.body_index{
+text-align: center;
+font-size: 16px;
+}
+
+#real{
+	position:relative;
+	bottom: -250px;
+}
+
+#health{
+	position: relative;
+	bottom: -320px;
+	right:560px;
+}
+#food{
+	position: relative;
+	bottom: -258px;
+}
+#happy{
+	position: relative;
+	bottom: -192px;
+	left: 570px;
+}

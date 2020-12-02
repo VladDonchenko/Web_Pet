@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="/public/style.css">
+    <link rel="stylesheet" href="/public/imdex.css">
+    <style type="text/css">
+   BODY {
+    background: #fc0 url(public/background/shop.jpg) repeat-y;
+   }
+  </style>
+  </head>
+  <body class="body_index"text = #EBEFF5>
+
+  <h1> <%= name %> in shop</h1>
+
+    <h1>money: <%= get('money') %></h1>
+
+  <div class="row">
+
+  <form action="/shop" method="get" style="">
+
+    <button type="submit" class="ggg" id = "health" name="health" value ="health">10$</button>
+
+  </form>
+
+  <form action="/shopfish" method="get" style="">
+
+    <button type="submit" class="ggg" id = "food" name="food" value="food">20$</button>
+
+  </form>
+
+  <form action="/shoppie" method="get" style="">
+
+    <button type="submit" class="ggg" id = "happy" name="happy" value="happy">30$</button>
+
+  </form>
+
+  <form action="/start" method="get" style="" ">
+
+    <button type="submit" class="ggg" id = "real" name="" value="">Real world</button>
+
+  </form>
+
+</div>
+
+</body>
+</html>

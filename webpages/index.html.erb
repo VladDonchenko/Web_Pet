@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>MyCat</title>
+    <link rel="stylesheet" href="/public/style.css">
+    <link rel="stylesheet" href="/public/gaming.css">
+    <style type="text/css">
+   BODY {
+    background: #fc0 url(public/background/index.jpg) repeat-y;
+   }
+  </style>
+  </head>
+  <body class="buttons"text = #EBEFF5>
+
+  <h1> <%= name %></h1>
+  <h3>Food:   <%= get('food')  %></h3>
+  <h3>Health: <%= get('health')%></h3>
+  <h3>Sleep:  <%= get('sleep') %></h3>
+  <h3>Happy:  <%= get('happy') %></h3>
+  <h3>Money:  <%= get('money') %></h3>
+  <h3>Muscles:  <%= get('muscles') %></h3>
+
+
+<div class="body_index" >
+  <form action="/change" method="get">
+
+    <button type="submit" class="ggg" name="food" value="food">Food</button>
+
+  </form>
+
+   <form action="/change" method="get">
+
+    <button type="submit" class="ggg" name="health" value="health">Health</button>
+
+    </form>
+
+     <form action="/change" method="get">
+
+    <button type="submit" class="ggg" name="sleep" value="sleep">Sleep</button>
+
+    </form>
+
+     <form action="/change" method="get">
+
+    <button type="submit" class="ggg" name="happy" value="happy">Play</button>
+
+
+  </form>
+
+  <form action="/gym" method="get">
+
+    <button type="submit" class="ggg" name="" value="">Gym</button>
+
+  </form>
+
+    <form action="/shop" method="get" style="">
+
+    <button type="submit" class="ggg" name="shop" value="shop">Shop</button>
+
+  </form>
+</div>
+
+</body>
+</html>

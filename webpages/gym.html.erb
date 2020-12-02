@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="/public/style.css">
+    <link rel="stylesheet" href="/public/imdex.css">
+    <style type="text/css">
+   BODY {
+    background: #fc0 url(public/background/gym.jpg) repeat-y;
+   }
+  </style>
+  </head>
+  <body class="body_index"text = #EBEFF5>
+
+  <h1> <%= name %> in gym</h1>
+  <img src="https://i.pinimg.com/originals/3c/c3/0f/3cc30f271088b25510e961202b411ef6.gif" alt="ping" style="width: 1040px; height:700px">
+
+    <h1>Pumping muscles: <%= get('muscles') %></h1>
+
+  <div class="row">
+
+  <form action="/gym" method="get" style="">
+
+    <button type="submit" class="ggg" name="muscles"
+    value="muscles">Pumping</button>
+
+  </form>
+
+  <form action="/exit" method="get" style="">
+
+    <button type="submit" class="ggg" name="dopping" value="dopping">Doping</button>
+
+  </form>
+
+  <form action="/start" method="get" style="" ">
+
+    <button type="submit" class="ggg" name="" value="">Real world</button>
+
+  </form>
+
+</div>
+
+</body>
+</html>
